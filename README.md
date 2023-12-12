@@ -28,6 +28,7 @@ The Yelp API provided more comprehensive data, including detailed information su
 
 ### Statistical Model Insights
 - Found a moderate positive correlation between the number of free bikes and restaurant ratings, indicating a slight tendency for higher-rated restaurants to have more available free bikes.
+- The more the free bikes (because people continue to drop them at those stations), cusomters are more likely to rent a bike and leave it in this area.
 - Developed an OLS regression model predicting free bike availability based on 'rating' and 'bike_station'.
   - The model explained approximately 30.2% of the variability in free bike availability.
   - 'bike_station' showed a significant negative relationship with 'free_bikes', while 'rating' exhibited a marginal positive relationship.
@@ -39,11 +40,12 @@ Challenges faced during the project:
 - Handling missing or inconsistent data within API responses.
 - Joining and merging the data based on common columns
 - Addressing potential multicollinearity issues in the regression model.
-- Interpreting nuanced relationships between variables due to weak correlations.
+- Interpreting subtle relationships between variables due to weak correlations.
 
 
 ## Future Goals
 Given more time, potential future goals for this project are:
+
 - Exploring additional variables or datasets to enhance the strength of the model.
 - Conducting thoughtful analysis on user reviews to further understand their impact on bike station dynamics.
 - Implementing more variables such as distance and location into the model to see if they're factors
