@@ -27,7 +27,7 @@
 The Yelp API provided more comprehensive data, including detailed information such as restaurant name, image URL, status (open/closed), reviews, categories, ratings, and location specifics. This emphasis on user-generated reviews contributed to a richer and more accurate representation of restaurant quality and popularity compared to Foursquare.
 
 ### Statistical Model Insights
-- Found a weak positive correlation between the number of free bikes and restaurant ratings, indicating a slight tendency for higher-rated restaurants to have more available free bikes.
+- Found a moderate positive correlation between the number of free bikes and restaurant ratings, indicating a slight tendency for higher-rated restaurants to have more available free bikes.
 - Developed an OLS regression model predicting free bike availability based on 'rating' and 'bike_station'.
   - The model explained approximately 30.2% of the variability in free bike availability.
   - 'bike_station' showed a significant negative relationship with 'free_bikes', while 'rating' exhibited a marginal positive relationship.
